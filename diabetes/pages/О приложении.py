@@ -1,4 +1,5 @@
 import streamlit as st
+
 from tools import render_footer
 
 st.title("🔍 Как работает приложение")
