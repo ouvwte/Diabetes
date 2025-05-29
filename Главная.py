@@ -6,7 +6,7 @@ from tools import render_footer
 st.set_page_config(
     layout="wide",
     page_title="Прогнозирование диабета",
-    page_icon="🧊"
+    page_icon="🩺"
 )
 
 @st.cache_data
