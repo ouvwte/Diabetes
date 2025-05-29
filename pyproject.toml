@@ -1,9 +1,9 @@
 [project]
 name = "diabetes"
 version = "0.1.0"
-description = "Add your description here"
+description = "diploma project on diabetes prediction using machine learning methods"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "pillow>=11.2.1",
     "scikit-learn>=1.6.1",
