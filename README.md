@@ -38,15 +38,20 @@ uv run streamlit run diabetes/Главная.py
 ## 📄 Структура проекта
 
 ```
-diabetes/
-├── Главная.py              # Главная страница (Введение и навигация)
-├── utils.py                # Общие функции
-├── requirements.txt
-├── model.pkl               # Обученная модель
-├── main_page_image.jpg     # Иллюстрация
+diabet/
+├── pyproject.toml
+├── .python-version
+├── .gitgnore
+├── uv.lock
 ├── README.md
-└── pages/
-    ├── Диагностика.py
-    ├── О приложении.py
-    └── Контакты.py
+└── assets/
+    ├── model.pkl               # Обученная модель
+    ├── main_page_image.jpg     # Иллюстрация
+└── diabetes/
+    ├── Главная.py              # Главная страница (Введение и навигация)
+    ├── tools.py                # Общие функции
+    └── pages/
+        ├── Диагностика.py
+        ├── О приложении.py
+        └── Контакты.py
 ```
